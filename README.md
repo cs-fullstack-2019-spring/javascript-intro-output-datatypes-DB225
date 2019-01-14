@@ -20,7 +20,12 @@ Add JavaScript inline (using <script> tags) that does the following:
 <body>
 <h1>JS Practice</h1>
 <script>
-    console.log("Hello World!")
+ var name = "YourName";
+ var age = 19;
+
+console.log( "My name is " + name + " and I am " + age);
 </script>
 </body>
 </html>
+
+### KEY - Check the instructions/requirements. You should be logging ```My name is YOURNAME and I am YOURAGE```
